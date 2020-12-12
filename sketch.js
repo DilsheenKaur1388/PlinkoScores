@@ -3,7 +3,7 @@ const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Contraint = Matter.Contraint;
  
-var particles = [];
+//var particles = [];
 var plinkos = [];
 var divisions = [];
 var divisionHeight=300;
@@ -56,7 +56,7 @@ function setup() {
  
 function mousePressed() {
   if(gameState!=="end") {
-    particle = new Particle(mouseX,10,10,10);
+    particle = new Particle(mouseX,10,10);
     count = count + 1;
   }
 }
